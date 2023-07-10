@@ -112,3 +112,29 @@ font-family: 'Work Sans', sans-serif; */
     bottom:0;
     left: 40px;
 }
+
+/* optional section statrs here  */
+.optional-section-container{
+    margin: 128px 200px;
+    padding: 85px 100px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 50px;
+}
+.optional-item img {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.optional-item{
+    text-align: center;
+}
+.item-text {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+
+}
