@@ -10,6 +10,16 @@ font-family: 'Work Sans', sans-serif; */
     font-family: 'Lato', sans-serif;
 }
 
+.button {
+    color: #fff;
+    background: #E55473;
+    padding: 20px 42px;
+    font-size: 20px;
+    font-weight:700;
+    border: none;
+    border-radius: 8px;
+}
+
 .banner-container {
     
     background: rgba(229, 84, 115, 0.10);
@@ -137,4 +147,35 @@ font-family: 'Work Sans', sans-serif; */
     font-size: 16px;
     font-weight: 400;
 
+}
+
+/* hot deal section starts here  */
+.hotdeal-container{
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 250px;
+}
+.hotdeal-left{
+    flex-basis: 50%;
+    text-align: center;
+}
+.hotdeal-heading{
+    color:#272727;
+    font-size: 35px;
+    font-weight: 800;
+    width: 540px;
+    margin-bottom: 24px;
+}
+.hotdeal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.hotdeal-image {
+    margin-left: 50px;
+    width: 280px;
 }
