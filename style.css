@@ -21,7 +21,6 @@ font-family: 'Work Sans', sans-serif; */
 }
 
 .banner-container {
-    
     background: rgba(229, 84, 115, 0.10);
     min-height: 100vh;
     display: flex;
@@ -30,7 +29,8 @@ font-family: 'Work Sans', sans-serif; */
     padding: 50px 200px 0 200px;
 }
 .banner-left{
-    margin-bottom: 120px;
+    margin-bottom: 120px;    
+    margin-left: -30px;    
 }
 
 .banner-title {
@@ -39,7 +39,6 @@ font-family: 'Work Sans', sans-serif; */
     font-weight: 800;
     line-height: 68px;
     width: 545px;
-    margin-left: -30px;
 }
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
