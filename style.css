@@ -30,21 +30,21 @@ font-family: 'Work Sans', sans-serif; */
     padding: 50px 200px 0 200px;
 }
 .banner-left{
-    margin-bottom: 60px;
+    margin-bottom: 120px;
 }
 
 .banner-title {
     color: #272727;
-    font-size: 60px;
+    font-size: 64px;
     font-weight: 800;
-    line-height: normal;
-    width: 520px;
+    line-height: 68px;
+    width: 550px;
 }
-.banner-description{
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 25px;
     margin: 32px 0;
 }
 .banner-btn {
@@ -60,6 +60,7 @@ font-family: 'Work Sans', sans-serif; */
     width: 500px;
     height: auto;
     flex-shrink: 0;
+    margin-left: 30px;
 }
 
 /* featured section starts here  */
@@ -263,3 +264,36 @@ font-family: 'Work Sans', sans-serif; */
     color: #fff;
 }
 /* footer section starts here  */
+.footer-container{
+    background: #111010;
+    color: #fff;
+    text-align: center;
+    padding: 128px 200px;
+}
+.footer-content{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800px;
+
+}
+.footer-title> span{
+    color:#E55473;
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 30px;
+}
+.copyright-text{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
